@@ -1,11 +1,13 @@
 body {
-  background-color: black;
+  background-image: url(https://www.carbonbrief.org/wp-content/uploads/2021/06/Blue-sky-with-clouds.jpg);
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; 
   margin-top: 10%;
   font-family: Georgia, serif;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>😱</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  
 }
 
 html{
@@ -20,7 +22,7 @@ html{
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: #8bcee0;
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 20px;
@@ -34,7 +36,7 @@ html{
 }
 
 h2{
-  color: black;
+  color: #3b43bb;
 }
 
 #start{
